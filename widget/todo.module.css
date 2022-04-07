@@ -1,0 +1,18 @@
+.todoItem {
+  padding: 0.8rem 0.5rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.todoItem:hover {
+  background-color: #e5e5e5;
+}
+
+.todoItem a {
+  color: #303030;
+}
+
+.todoItem.todo-done a {
+  color: #43a047 !important;
+}
